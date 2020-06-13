@@ -176,9 +176,9 @@ async def stop_bot(ctx):
     await ctx.send("chương trình đang dừng")
     sys.exit()
 
-def chuc_function():
-    text=["xin chào"," ê cu", "chào bạn", " cho phép trình bày", "chào cc"]
-    res= random.choice(text)
-    return res
+# def chuc_function():
+#     text=["xin chào"," ê cu", "chào bạn", " cho phép trình bày", "chào cc"]
+#     res= random.choice(text)
+#     return res
 
 bot.run(TOKEN)
